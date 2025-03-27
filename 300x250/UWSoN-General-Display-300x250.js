@@ -466,16 +466,17 @@ if (reversed == null) { reversed = false; }
 	// SUBHEAD
 	this.instance_2 = new lib.SUBHEAD();
 	this.instance_2.setTransform(152.5,192.1,1,1,0,0,0,0,9.6);
+	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(83).to({_off:false},0).wait(86).to({alpha:0},9).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(83).to({_off:false},0).to({alpha:1},10).wait(76).to({alpha:0},9).wait(1));
 
 	// CTA
 	this.instance_3 = new lib.CTA();
 	this.instance_3.setTransform(240.1,225.6,1.15,1.15);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(98).to({_off:false},0).to({regX:0.1,regY:0.1,scaleX:1.3225,scaleY:1.3225,x:240.25,y:225.7},2).to({regX:0,regY:0,scaleX:1.15,scaleY:1.15,x:240.1,y:225.6},8).wait(61).to({alpha:0},9).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(116).to({_off:false},0).to({regX:0.1,regY:0.1,scaleX:1.3225,scaleY:1.3225,x:240.25,y:225.7},2).to({regX:0,regY:0,scaleX:1.15,scaleY:1.15,x:240.1,y:225.6},8).wait(43).to({alpha:0},9).wait(1));
 
 	// LOGO
 	this.instance_4 = new lib.LOGO300x2502x();
