@@ -27,7 +27,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_5 = function() {
+(lib.CachedBmp_2 = function() {
 	this.initialize(ss["UWSoN_Trans_Display_300x250_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -90,7 +90,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// SUBHEAD.svg
-	this.instance = new lib.CachedBmp_5();
+	this.instance = new lib.CachedBmp_2();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -318,12 +318,12 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1b
 	this.instance_1 = new lib.HEAD1b();
-	this.instance_1.setTransform(90.4,89.8,1,1,0,0,0,135.4,-19.2);
+	this.instance_1.setTransform(150.4,89.8,1,1,0,0,0,135.4,-19.2);
 	this.instance_1.alpha = 0;
 	this.instance_1.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,0);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(43).to({_off:false},0).to({x:150.4,alpha:1},14,cjs.Ease.quintOut).wait(112).to({alpha:0},9).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(43).to({_off:false},0).to({alpha:1},14,cjs.Ease.quintOut).wait(112).to({alpha:0},9).wait(1));
 
 	// SUBHEAD
 	this.instance_2 = new lib.SUBHEAD();
@@ -362,7 +362,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(82,124.5,218.5,126);
+p.nominalBounds = new cjs.Rectangle(85,124.5,215.5,126);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
