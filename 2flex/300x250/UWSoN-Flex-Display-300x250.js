@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"UWSoN_Flex_Display_300x250_atlas_1", frames: [[574,620,335,54],[0,620,572,116],[0,502,692,116],[574,676,167,75],[0,0,600,500]]}
+		{name:"UWSoN_Flex_Display_300x250_atlas_1", frames: [[602,352,335,54],[602,176,380,174],[602,0,416,174],[602,408,167,75],[0,0,600,500]]}
 ];
 
 
@@ -198,7 +198,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.HEAD1b, new cjs.Rectangle(-19,-11,346,58), null);
+}).prototype = getMCSymbolPrototype(lib.HEAD1b, new cjs.Rectangle(-19,-11,208,87), null);
 
 
 (lib.HEAD1a = function(mode,startPosition,loop,reversed) {
@@ -220,7 +220,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.HEAD1a, new cjs.Rectangle(-19,-68,286,58), null);
+}).prototype = getMCSymbolPrototype(lib.HEAD1a, new cjs.Rectangle(-19,-68,190,87), null);
 
 
 (lib.SUBHEAD = function(mode,startPosition,loop,reversed) {
@@ -311,14 +311,14 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1a
 	this.instance = new lib.HEAD1a();
-	this.instance.setTransform(59.9,34.25,0.744,0.744,0,0,0,135.3,-19.2);
+	this.instance.setTransform(59.9,70.25,0.744,0.744,0,0,0,135.3,-19.2);
 	this.instance.alpha = 0;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).to({regX:135.6,x:116.55,alpha:1},14,cjs.Ease.quintOut).wait(155).to({alpha:0},9).wait(1));
 
 	// HEAD1b
 	this.instance_1 = new lib.HEAD1b();
-	this.instance_1.setTransform(59.9,15.65,0.744,0.744,0,0,0,135.3,-19.2);
+	this.instance_1.setTransform(59.9,70.65,0.744,0.744,0,0,0,135.3,-19.2);
 	this.instance_1.alpha = 0;
 	this.instance_1.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,0);
 	this.instance_1._off = true;
@@ -362,7 +362,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(91.1,123,209.4,127.5);
+p.nominalBounds = new cjs.Rectangle(91.1,124.5,209.4,126);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
