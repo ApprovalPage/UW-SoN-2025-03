@@ -375,13 +375,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.instance = new lib.SUBHEADsvg("synched",0);
-	this.instance.setTransform(95.95,-23,1.12,1.12,0,0,0,136.8,6);
+	this.instance.setTransform(109.5,-22.9,1.28,1.28,0,0,0,136.7,6);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.SUBHEAD, new cjs.Rectangle(-57.2,-29.7,114.5,46.8), null);
+}).prototype = getMCSymbolPrototype(lib.SUBHEAD, new cjs.Rectangle(-65.4,-30.6,130.9,53.5), null);
 
 
 (lib.CTA = function(mode,startPosition,loop,reversed) {
@@ -466,7 +466,7 @@ if (reversed == null) { reversed = false; }
 
 	// SUBHEAD
 	this.instance_2 = new lib.SUBHEAD();
-	this.instance_2.setTransform(82.5,426.1,1,1,0,0,0,0,9.6);
+	this.instance_2.setTransform(80,421.1,1,1,0,0,0,0,9.6);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
