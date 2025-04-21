@@ -479,7 +479,7 @@ if (reversed == null) { reversed = false; }
 
 	// SUBHEAD
 	this.instance_2 = new lib.SUBHEAD();
-	this.instance_2.setTransform(150,421.25,1.25,1.25,0,0,0,0,9.7);
+	this.instance_2.setTransform(150.1,420.25,1.375,1.375,0,0,0,0.1,9.7);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
