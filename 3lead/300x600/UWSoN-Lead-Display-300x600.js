@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"UWSoN_Lead_Display_300x600_atlas_P_1", frames: [[0,176,756,116],[0,0,506,174],[508,0,167,75]]},
+		{name:"UWSoN_Lead_Display_300x600_atlas_P_1", frames: [[0,176,488,174],[0,0,548,174],[490,176,167,75]]},
 		{name:"UWSoN_Lead_Display_300x600_atlas_NP_1", frames: [[0,0,600,1200]]}
 ];
 
@@ -380,7 +380,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.HEAD1b, new cjs.Rectangle(-19,-11,253,87), null);
+}).prototype = getMCSymbolPrototype(lib.HEAD1b, new cjs.Rectangle(-19,-11,274,87), null);
 
 
 (lib.HEAD1a = function(mode,startPosition,loop,reversed) {
@@ -402,7 +402,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.HEAD1a, new cjs.Rectangle(-19,-68,378,58), null);
+}).prototype = getMCSymbolPrototype(lib.HEAD1a, new cjs.Rectangle(-19,-68,244,87), null);
 
 
 (lib.CTA = function(mode,startPosition,loop,reversed) {
@@ -471,19 +471,19 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1a
 	this.instance = new lib.HEAD1a();
-	this.instance.setTransform(66.05,50.2,0.7779,0.7779,0,0,0,135.3,-19.1);
+	this.instance.setTransform(78.35,55.75,0.972,0.972,0,0,0,135.2,-18.9);
 	this.instance.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({regX:135.7,x:125.25,alpha:1},14,cjs.Ease.quintOut).wait(155).to({alpha:0},9).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({regX:135.8,x:152.2,alpha:1},14,cjs.Ease.quintOut).wait(155).to({alpha:0},9).wait(1));
 
 	// HEAD1b
 	this.instance_1 = new lib.HEAD1b();
-	this.instance_1.setTransform(65.05,30.35,0.7779,0.7779,0,0,0,135.3,-19.1);
+	this.instance_1.setTransform(77.1,55.95,0.972,0.972,0,0,0,135.2,-18.9);
 	this.instance_1.alpha = 0;
 	this.instance_1.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,0);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(43).to({_off:false},0).to({regX:135.7,x:124.25,alpha:1},14,cjs.Ease.quintOut).wait(112).to({alpha:0},9).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(43).to({_off:false},0).to({regX:135.8,x:151,alpha:1},14,cjs.Ease.quintOut).wait(112).to({alpha:0},9).wait(1));
 
 	// SUBHEAD
 	this.instance_2 = new lib.SUBHEAD();
@@ -522,7 +522,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(91,299.5,209.5,301);
+p.nominalBounds = new cjs.Rectangle(73.3,299.5,227.2,301);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',

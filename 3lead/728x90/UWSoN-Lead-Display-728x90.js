@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"UWSoN_Lead_Display_728x90_atlas_P_1", frames: [[0,0,518,174],[0,176,506,174],[508,176,167,75]]},
+		{name:"UWSoN_Lead_Display_728x90_atlas_P_1", frames: [[0,176,488,174],[0,0,548,174],[490,176,167,75]]},
 		{name:"UWSoN_Lead_Display_728x90_atlas_NP_1", frames: [[0,0,1456,180]]}
 ];
 
@@ -380,7 +380,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.HEAD1b, new cjs.Rectangle(-19,-11,253,87), null);
+}).prototype = getMCSymbolPrototype(lib.HEAD1b, new cjs.Rectangle(-19,-11,274,87), null);
 
 
 (lib.HEAD1a = function(mode,startPosition,loop,reversed) {
@@ -402,7 +402,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.HEAD1a, new cjs.Rectangle(-19,-68,259,87), null);
+}).prototype = getMCSymbolPrototype(lib.HEAD1a, new cjs.Rectangle(-19,-68,244,87), null);
 
 
 (lib.CTA = function(mode,startPosition,loop,reversed) {
