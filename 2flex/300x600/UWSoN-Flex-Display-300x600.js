@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"UWSoN_Flex_Display_300x600_atlas_P_1", frames: [[0,118,572,116],[0,0,692,116],[574,118,167,75]]},
+		{name:"UWSoN_Flex_Display_300x600_atlas_P_1", frames: [[0,176,380,174],[0,0,416,174],[0,352,167,75]]},
 		{name:"UWSoN_Flex_Display_300x600_atlas_NP_1", frames: [[0,0,600,1200]]}
 ];
 
@@ -358,13 +358,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.instance = new lib.HEAD1b2x();
-	this.instance.setTransform(-19,-11,0.5,0.5);
+	this.instance.setTransform(-19,-11,0.3006,0.75);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.HEAD1b, new cjs.Rectangle(-19,-11,346,58), null);
+}).prototype = getMCSymbolPrototype(lib.HEAD1b, new cjs.Rectangle(-19,-11,208,87), null);
 
 
 (lib.HEAD1a = function(mode,startPosition,loop,reversed) {
@@ -380,13 +380,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.instance = new lib.HEAD1a2x();
-	this.instance.setTransform(-19,-68,0.5,0.5);
+	this.instance.setTransform(-19,-68,0.3322,0.75);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.HEAD1a, new cjs.Rectangle(-19,-68,286,58), null);
+}).prototype = getMCSymbolPrototype(lib.HEAD1a, new cjs.Rectangle(-19,-68,190,87), null);
 
 
 (lib.CTA = function(mode,startPosition,loop,reversed) {
@@ -455,23 +455,23 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1a
 	this.instance = new lib.HEAD1a();
-	this.instance.setTransform(69.95,81.8,0.884,0.884,0,0,0,135.3,-19.1);
+	this.instance.setTransform(85.35,57,0.9976,0.9976,0,0,0,135.2,-19.1);
 	this.instance.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({regX:135.6,x:137.2,alpha:1},14,cjs.Ease.quintOut).wait(155).to({alpha:0},9).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({regX:135.7,x:161.3,alpha:1},14,cjs.Ease.quintOut).wait(155).to({alpha:0},9).wait(1));
 
 	// HEAD1b
 	this.instance_1 = new lib.HEAD1b();
-	this.instance_1.setTransform(69.95,63.8,0.884,0.884,0,0,0,135.3,-19.1);
+	this.instance_1.setTransform(85.35,59.3,0.9976,0.9976,0,0,0,135.2,-19);
 	this.instance_1.alpha = 0;
 	this.instance_1.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,0);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(43).to({_off:false},0).to({regX:135.6,x:137.2,alpha:1},14,cjs.Ease.quintOut).wait(112).to({alpha:0},9).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(43).to({_off:false},0).to({regX:135.7,x:161.3,alpha:1},14,cjs.Ease.quintOut).wait(112).to({alpha:0},9).wait(1));
 
 	// SUBHEAD
 	this.instance_2 = new lib.SUBHEAD();
-	this.instance_2.setTransform(150,421.25,1.25,1.25,0,0,0,0,9.7);
+	this.instance_2.setTransform(150.1,420.25,1.375,1.375,0,0,0,0.1,9.7);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
@@ -506,7 +506,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(79.6,299.5,232.20000000000002,301);
+p.nominalBounds = new cjs.Rectangle(77.5,299.5,223,301);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
